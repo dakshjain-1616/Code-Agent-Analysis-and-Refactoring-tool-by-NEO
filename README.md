@@ -6,7 +6,7 @@
 
 > An autonomous code analysis and refactoring agent that combines static analysis tools with LLM-powered refactoring to automatically improve code quality, detect smells, and validate changes with automated testing.
 
-**Built by [NEO](https://heyneo.so/)** - An autonomous AI development assistant that helps developers build production-ready applications.
+**Built by [NEO](https://heyneo.so/)** - An autonomous AI/ML agent 
 
 ---
 
@@ -433,7 +433,7 @@ See `examples/refactoring_reports/` for comprehensive performance analysis.
 
 ## 🚀 Extending with NEO
 
-This agent was built using **[NEO](https://heyneo.so/)** - an AI-powered development assistant that helps you extend and customize development tools.
+This agent was built using **[NEO](https://heyneo.so/)** - an Autonomous ML agent 
 
 ### Getting Started with NEO
 
@@ -752,7 +752,7 @@ SOFTWARE.
 - **[Radon](https://radon.readthedocs.io/)** - Code complexity analysis
 - **[Pylint](https://pylint.org/)** - Python static analysis
 - **[Rich](https://rich.readthedocs.io/)** - Beautiful terminal output
-- **[NEO](https://heyneo.so/)** - AI development assistant that built this agent
+- **[NEO](https://heyneo.so/)** - AI/ML agent that built this agent
 
 ---
 
