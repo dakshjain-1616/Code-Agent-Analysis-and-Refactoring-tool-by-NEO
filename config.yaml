@@ -1,0 +1,49 @@
+llm:
+  provider: "ollama"
+  model: "deepseek-coder:6.7b"
+  api_endpoint: "http://localhost:11434"
+  fallback_provider: "local"
+  temperature: 0.2
+  max_tokens: 2048
+  timeout: 60
+
+analysis:
+  severity_thresholds:
+    critical: 9
+    high: 7
+    medium: 5
+    low: 3
+  complexity_threshold: 8
+  max_method_lines: 30
+  max_class_lines: 60
+  duplication_threshold: 6
+  enabled_checks:
+    - cyclomatic_complexity
+    - unused_variables
+    - duplicate_code
+    - long_methods
+    - large_classes
+    - dead_code
+
+refactoring:
+  auto_apply: false
+  max_retries: 3
+  create_backup: true
+  preserve_comments: true
+  patterns:
+    - extract_method
+    - extract_class
+    - rename
+    - simplify_conditionals
+
+testing:
+  framework: "pytest"
+  coverage_threshold: 80
+  timeout: 300
+  fail_on_test_failure: true
+
+git:
+  create_branches: true
+  branch_prefix: "refactor/"
+  commit_prefix: "[REFACTOR]"
+  auto_push: false

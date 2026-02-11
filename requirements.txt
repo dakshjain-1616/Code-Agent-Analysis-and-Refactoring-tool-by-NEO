@@ -1,0 +1,14 @@
+pydantic>=2.0.0
+pyyaml>=6.0
+gitpython>=3.1.0
+pylint>=3.0.0
+flake8>=6.0.0
+pytest>=7.0.0
+pytest-cov>=4.0.0
+rich>=13.0.0
+pandas>=2.0.0
+requests>=2.31.0
+ollama>=0.1.0
+radon>=6.0.0
+click>=8.1.0
+astroid>=3.0.0

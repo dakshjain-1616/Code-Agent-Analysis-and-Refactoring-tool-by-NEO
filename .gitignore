@@ -1,0 +1,108 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# IDE and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Logs and Runtime Artifacts
+*.log
+*.log.*
+logs/
+*.out
+*.err
+
+# Project-Specific Artifacts
+examples/refactoring_reports/
+refactoring_reports/
+*.backup
+*.bak
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+.hypothesis/
+
+# LLM and Model Files
+*.bin
+*.gguf
+*.safetensors
+models/
+model_cache/
+.cache/
+ollama_cache/
+
+# Configuration (sensitive)
+.env
+.env.local
+secrets.yaml
+credentials.json
+kaggle.json
+
+# Git
+*.orig
+*.rej
+.git/
+
+# Documentation Build
+docs/_build/
+site/
+
+# Test Coverage
+.coverage
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+nosetests.xml
+
+exaamples
